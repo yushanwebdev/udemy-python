@@ -1,21 +1,42 @@
-name = "yushan" # creating a variable
-name = "fernando"
+x = "Hello"
+y = "World"
 
-print(name)
+# concatenation
+z = x + " " + y
 
-sum1 = 10
-sum2 = 50
+print(z)
 
-total = sum1 + sum2 # here not change sum1 value to 30 because integer is an primitive data type
+# string + int
+a = "yushan"
+b = 5
 
-sum1 = 30
+# print(a + b) [Error - can only concatenate str (not "int") to str]
 
-print(total)
+# string * int
+a = "yushan"
+b = 2
 
-sum1, sum2 = 0, 0 # this good only for variable initialization
+print(a * b)
 
-print(sum1)
+# converted to integer type
+a = int("10")
+b = 2
 
-## Variable Naming Conventions (PEP Standard)
-my_value = 100.45
-_2for_the_python = 4 + 5j
+print(a + b)
+
+# converted to float type
+a = float("7.1")
+b = 3
+
+print(a + b)
+
+# converted to bool type
+a = "False"
+b = 10
+
+a = bool(a)
+print(a)
+
+c = a + b
+
+print(c)
